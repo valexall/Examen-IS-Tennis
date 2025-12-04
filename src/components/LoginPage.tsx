@@ -114,19 +114,6 @@ export function LoginPage({ onSwitchToRegister }: LoginPageProps) {
             <AlertDescription className="whitespace-pre-line">{errorMessage}</AlertDescription>
           </Alert>
         )}
-
-        {/* Demo Info */}
-        <Card className="bg-blue-50 border-blue-200">
-          <CardContent className="pt-6">
-            <p className="text-blue-800 text-sm">
-              <strong>Usuario de prueba:</strong>
-              <br />
-              Email: juan@email.com
-              <br />
-              Contraseña: password123
-            </p>
-          </CardContent>
-        </Card>
       </div>
     </div>
   );
